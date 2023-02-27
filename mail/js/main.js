@@ -10,7 +10,12 @@ console.log(emailAccettate.length);
 //Ogni volta che la email dell'utente è diversa dal numero d'insieme degli elementi della lista fai qualcosa
 
 for(i = 0; i < emailAccettate.length; i++){
-    if (emailInserita != emailAccettate.length[i]){
+
+    emailInserita = emailAccettate[i];
+
+    if (emailInserita !== emailAccettate[i]){
         console.log('ciao');
+    } else {
+        console.log('bau');
     }
 }
