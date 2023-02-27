@@ -6,16 +6,20 @@ const emailInserita = prompt("Digita la tua e-mail Google facendo attenzione che
 
 console.log(emailAccettate.length);
 
-//creo un ciclo for che si ripeta per il numero di elementi presenti nell'array
-//Ogni volta che la email dell'utente è diversa dal numero d'insieme degli elementi della lista fai qualcosa
+let element = false;
+
 
 for(i = 0; i < emailAccettate.length; i++){
 
-    emailInserita = emailAccettate[i];
+    if (emailInserita == emailAccettate[i]){
+        element = true;
+    } 
 
-    if (emailInserita !== emailAccettate[i]){
-        console.log('ciao');
-    } else {
-        console.log('bau');
-    }
+    
+}
+
+if(element === true){
+    console.log('bravo')
+} else if(element === false) {
+    console.log('ritenta, sarai più fortunato')
 }
