@@ -14,12 +14,10 @@ for(i = 0; i < emailAccettate.length; i++){
     if (emailInserita == emailAccettate[i]){
         element = true;
     } 
-
-    
 }
 
 if(element === true){
-    console.log('bravo')
+    console.log('bravo');
 } else if(element === false) {
-    console.log('ritenta, sarai più fortunato')
+    alert('ritenta, sarai più fortunato');
 }
