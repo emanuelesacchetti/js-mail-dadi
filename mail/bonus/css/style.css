@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body div{
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 50px;
+    background-color: brown;
+}
+#utentEmail {
+    display: inline-block;
+    margin: 10px;
+}
+#send {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
